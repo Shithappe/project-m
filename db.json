@@ -1,0 +1,228 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Проект 1",
+      "description": "Описание проекта 1",
+      "tasksCount": 5,
+      "status": "active",
+      "createdAt": "2023-10-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Проект 2",
+      "description": "Описание проекта 2",
+      "tasksCount": 3,
+      "status": "archived",
+      "createdAt": "2023-09-01T00:00:00Z"
+    },
+    {
+      "id": 1734047541664,
+      "title": "New project Vue",
+      "description": "many lorem",
+      "status": "active",
+      "tasksCount": 0,
+      "createdAt": "2024-12-12T23:52:21.664Z"
+    },
+    {
+      "id": 1734060949727,
+      "title": "R",
+      "description": "some desc",
+      "status": "active",
+      "tasksCount": 0,
+      "createdAt": "2024-12-13T03:35:49.727Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "projectId": 1,
+      "title": "Задача 1 для Проекта 1",
+      "description": "Описание задачи 1",
+      "status": "todo",
+      "dueDate": "2023-10-05T00:00:00Z",
+      "assignee": {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      }
+    },
+    {
+      "id": "2",
+      "projectId": 1,
+      "title": "Задача 2 для Проекта 1",
+      "description": "Описание задачи 2",
+      "status": "in_progress",
+      "dueDate": "2023-10-10T00:00:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Emily Johnson",
+        "email": "emily.johnson@company.com"
+      }
+    },
+    {
+      "id": "3",
+      "projectId": 1,
+      "title": "Задача 3 для Проекта 1",
+      "description": "Описание задачи 3",
+      "status": "done",
+      "dueDate": "2023-10-15T00:00:00Z",
+      "assignee": {
+        "id": 3,
+        "name": "Michael Brown",
+        "email": "michael.brown@company.com"
+      }
+    },
+    {
+      "id": "4",
+      "projectId": 2,
+      "title": "AWD",
+      "description": "Описание задачи 1",
+      "status": "in_progress",
+      "dueDate": "2023-09-05T00:00:00.000Z",
+      "assignee": {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      }
+    },
+    {
+      "id": "5",
+      "projectId": 2,
+      "title": "Задача 2 для Проекта 2",
+      "description": "Описание задачи 2",
+      "status": "done",
+      "dueDate": "2023-09-10T00:00:00Z",
+      "assignee": {
+        "id": 2,
+        "name": "Emily Johnson",
+        "email": "emily.johnson@company.com"
+      }
+    },
+    {
+      "id": "6",
+      "projectId": 1,
+      "title": "Задача 4 для Проекта 1",
+      "description": "Описание задачи 4",
+      "status": "in_progress",
+      "dueDate": "2023-11-20T00:00:00Z"
+    },
+    {
+      "id": 1734050149515,
+      "title": "123",
+      "description": "awd",
+      "status": "todo",
+      "dueDate": "2024-12-16T22:00:00.000Z",
+      "assignee": {
+        "id": 2,
+        "name": "Emily Johnson",
+        "email": "emily.johnson@company.com"
+      },
+      "projectId": 1734047541664
+    },
+    {
+      "id": 1734051660592,
+      "title": "фцв",
+      "description": "21уйцвфы",
+      "status": "in_progress",
+      "dueDate": "2024-12-22T22:00:00.000Z",
+      "assignee": {
+        "id": 2,
+        "name": "Emily Johnson",
+        "email": "emily.johnson@company.com"
+      },
+      "projectId": 1
+    },
+    {
+      "id": 1734055619821,
+      "title": "awd",
+      "description": "awd",
+      "status": "todo",
+      "dueDate": "2024-12-30T22:00:00.000Z",
+      "assignee": {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "projectId": 2
+    },
+    {
+      "id": 1734057037342,
+      "title": "Задача 1 для Проекта 2",
+      "description": "Описание задачи 1",
+      "status": "todo",
+      "dueDate": "2023-09-05T00:00:00.000Z",
+      "assignee": {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "projectId": 2
+    },
+    {
+      "id": 1734057304920,
+      "title": "sssssssss",
+      "description": "awd",
+      "status": "in_progress",
+      "dueDate": "2024-12-30T22:00:00.000Z",
+      "assignee": {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "projectId": 2
+    },
+    {
+      "id": 1734057354187,
+      "title": "123",
+      "description": "awd",
+      "status": "in_progress",
+      "dueDate": "2024-12-28T22:00:00.000Z",
+      "assignee": {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "projectId": 2
+    },
+    {
+      "id": 1734057440741,
+      "title": "awd",
+      "description": "awd",
+      "status": "todo",
+      "dueDate": "2024-12-28T22:00:00.000Z",
+      "assignee": {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "projectId": 2
+    },
+    {
+      "id": 1734058194252,
+      "title": "1",
+      "description": "1",
+      "status": "done",
+      "dueDate": "2024-12-23T22:00:00.000Z",
+      "assignee": {
+        "id": 2,
+        "name": "Emily Johnson",
+        "email": "emily.johnson@company.com"
+      },
+      "projectId": 2
+    },
+    {
+      "id": 1734064470075,
+      "title": "10",
+      "description": "12",
+      "status": "todo",
+      "dueDate": "2024-12-29T22:00:00.000Z",
+      "assignee": {
+        "id": 3,
+        "name": "Michael Brown",
+        "email": "michael.brown@company.com"
+      },
+      "projectId": 1
+    }
+  ]
+}
