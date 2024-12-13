@@ -1,33 +1,51 @@
-# project-m
+# project-m 📋
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🌐 Демо
+[Ссылка на живое демо](https://drive.google.com/file/d/1dHXRJD6o6jgYMdO5Eu3_fe0HDFy_NIsj/view?usp=sharing)
 
-## Recommended IDE Setup
+## 📝 Описание проекта
+Project Manager - это веб-приложение для эффективного управления проектами и задачами. Позволяет создавать, отслеживать и организовывать проекты и связанные с ними задачи в интуитивном интерфейсе.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Основные возможности:
+- Создание и управление проектами
+- Добавление и трекинг задач
+- Локальное сохранение данных
+- Синхронизация с localStorage
 
-## Type Support for `.vue` Imports in TS
+## 🚀 Используемые технологии
+- TypeScript
+- Vue 3
+- Pinia (state management)
+- Vite
+- JSON Server
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🔧 Установка и запуск
 
-## Customize configuration
+### Prerequisites
+- Node.js (v16+)
+- npm или yarn
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Шаги установки
+1. Клонирование репозитория
+```bash
+git clone https://github.com/Shithappe/project-m.git
+cd project-m
+```
 
-## Project Setup
-
-```sh
+2. Установка зависимостей
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+3. Запуск development сервера
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
+4. Запуск JSON Server
+```bash
+npm run server
 ```
+
+## ✨ Дополнительные возможности
+- Persistent Storage: Автоматическая синхронизация данных с localStorage
